@@ -1,0 +1,117 @@
+body{
+    background-color: rgb(218 247 218);
+    color: rgb(30, 30, 30);
+    font-family: courier;
+    font-size: 100px
+    font-weight: ;
+    }
+
+ h1, h2, h3  {
+ 	font-family: 'Shippori Mincho', serif;
+ 	}
+
+h1 {
+	color: #635b80;
+    font-weight: 800;
+    letter-spacing: 10px;
+    font-size: 100px;
+	}
+
+h2 {
+	color: #635b80;
+    font-weight: 500;
+    letter-spacing: 10px;
+    font-size: 60px;
+    font-weight: lighter;
+    }
+
+a {
+	text-decoration: none;
+	color: #af0069;
+	font-weight: bold;
+	}
+
+a:hover {
+    color: #184d47;
+    font-weight: bold;
+   }
+
+.container {
+    width: 700px;
+    margin: 40px auto ;
+   }
+
+
+@media (max-width: 760px) {
+
+    .container {
+        width: 600px; 
+        }
+
+    }
+
+
+@media (max-width: 600px) {
+
+    .container { 
+        width: 400px; 
+        }
+
+    }
+
+
+ .box-white {
+    text-align: center;
+    background: beige;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 0px 10px 30px rgb(0 0 0);
+    border-radius: 50px;
+    width: 800px;
+    margin: 15px auto;
+   }
+
+
+.btn-pink {
+    background-color: pink; 
+    color: green;
+    padding: 15px 20px;
+    border-radius: 4px;
+   }
+
+.btn-pink:hover {
+    background-color: white;
+    color: black;
+   }
+
+.list-inline {
+     list-style: none;
+     padding-left: 0px;
+    }
+
+.list-inline li {
+     display: inline;
+     padding: 10px;
+    }
+
+.list-inline i {
+     font-size: 50px;
+    }
+
+.list-inline i: hover {
+    color: black;
+    }
+
+
+
+
+#photo {
+    border-radius: 10px;
+    width: 500px;
+    border: 25px solid #711C13;
+   }
+
+#introduction p {
+     margin-bottom: 40px;
+    }
+
